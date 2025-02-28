@@ -1,0 +1,162 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    
+    display: flex;
+    height:80px;
+    justify-content: space-between;
+    background-color:blue;
+    align-items: center;
+    color: white;
+    padding:0 20px;
+    font-family: medium;
+
+}
+.sidebar{
+   background-color: rgb(183, 179, 179);
+    width: 150px;
+    max-width: 100%;
+    height: 90vh;
+    padding-top: 10px;
+}
+
+.sidebar ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-weight:500;
+}
+
+.collectionsection{
+    display: flex;
+    
+    }
+
+/* >>>>>>>>>>>>>>...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.login{
+   
+    width:100%;
+    
+    display:flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items:center;
+   margin-top: -150px;
+
+}
+.register{
+    width:100%;
+    
+    display:flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items:center;
+   margin-top: -150px;
+}
+.firm{
+    width:100%;
+     display:flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items:center;
+   margin-top: -150px;  
+}
+.product{
+    width:100%;
+     display:flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items:center;
+   margin-top: -150px;  
+
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.allforms{
+    width:100%;
+    max-width:50%;
+    border:1px solid black;
+    padding-top: 20px;
+   border-radius: 15px;
+    display:flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items:center;
+   background-color: rgb(183, 179, 179);
+   
+ 
+
+}
+.allforms label{
+    width:100%;
+    max-width: 55%;
+   font-size:large;
+}
+.allforms input{
+ width:100%;
+ max-width: 55%;
+ height: 1.4rem;   
+}
+
+
+.checkinp{
+    
+  width:100%;
+  max-width:55%;
+    
+}
+.checkinput label{
+    width: 20%;
+    padding: 20px;
+}
+.inputcontainer{
+   
+    width:100%;
+    display: flex;
+    padding: 10px;
+}
+
+.checkboxcontainer{
+    
+    width: 100%;
+    max-width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.productSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-table {
+    width: 80vw;
+    border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+    border: 1px solid rgb(128, 128, 128);
+    padding: 8px;
+}
+
+.product-table th {
+    text-align: left;
+    background-color: rgb(47, 77, 212);
+    color: white;
+}
+
+.deleteBtn {
+    color: red;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
